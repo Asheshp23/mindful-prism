@@ -15,6 +15,9 @@
     h2 { font-size: 18px; font-weight: 600; margin: 36px 0 12px; color: #1c1c1e; }
     h2:first-child { margin-top: 0; }
     p { font-size: 16px; line-height: 1.7; color: #3a3a3c; margin-bottom: 12px; }
+    ul { margin: 0 0 12px 20px; }
+    li { font-size: 16px; line-height: 1.7; color: #3a3a3c; margin-bottom: 6px; }
+    a { color: #4f7cff; }
     .none-box { background: #f2fdf5; border: 1px solid #b7f5c8; border-radius: 12px; padding: 16px 20px; margin: 12px 0; }
     .none-box p { color: #166534; margin: 0; font-weight: 500; }
     footer { text-align: center; padding: 32px 24px; color: #8e8e93; font-size: 13px; border-top: 1px solid #e5e5ea; }
@@ -24,21 +27,39 @@
 <body>
 
 <div class="header">
-   Mindful Prism
+  <a href="./">← Mindful Prism</a>
   <h1>Privacy Policy</h1>
-  <p class="updated">Last updated: May 2026</p>
+  <p class="updated">Last updated: October 10, 2026 (version 2.0)</p>
 </div>
 
 <div class="content">
 
   <h2>Overview</h2>
-  <p>Mindful Prism does not collect, store, transmit, or share any personal data. This policy explains exactly how the app handles your information.</p>
+  <p>Mindful Prism does not collect, transmit, or share any personal data. There is no account, no server, and no analytics. This policy explains how the app handles your information on your device.</p>
 
   <h2>Data collected</h2>
-  <div class="none-box"><p>None. Mindful Prism collects no personal information, usage data, analytics, crash reports, or any other data from users.</p></div>
+  <div class="none-box"><p>None. Mindful Prism collects no personal information, usage data, analytics, crash reports, or any other data from users. The developer never receives your journal entries, recordings, or health data.</p></div>
 
   <h2>How your journal entries are processed</h2>
-  <p>All analysis is performed entirely on your device using Apple's on-device AI framework (FoundationModels). Your journal entries are never sent to any server, third party, or cloud service. They exist only in your device's memory during your session and are not written to disk by the app.</p>
+  <p>All analysis is performed entirely on your device using Apple's on-device Foundation Models framework (Apple Intelligence). Your journal entries are never sent to any server, third party, or cloud service. Entries exist only in your device's memory during your session and are cleared when you close the app or start over.</p>
+
+  <h2>Ways you can add an entry</h2>
+  <ul>
+    <li><strong>Voice (microphone and speech recognition).</strong> If you use live transcription, the app asks for microphone and speech recognition access. Your speech is transcribed on your device. Audio is not recorded, saved, or sent anywhere.</li>
+    <li><strong>Camera (scanning handwritten pages).</strong> If you scan a page, the camera image is used only to recognize the text on your device. The image is not saved by the app.</li>
+    <li><strong>PDF import.</strong> If you import a PDF, the app reads its text on your device. The app only sees files you choose.</li>
+  </ul>
+  <p>You can turn off any of these permissions at any time in Settings &gt; Privacy &amp; Security.</p>
+
+  <h2>Apple Health (HealthKit)</h2>
+  <p>Mindful Prism uses HealthKit only to save your guided breathing sessions as Mindful Minutes, and only when you tap Save to Apple Health. The app writes this data; it does not read any data from Apple Health.</p>
+  <p>Mindful Minutes are stored in Apple's Health app under your control, not by Mindful Prism. Health data is never used for advertising or marketing, never sold, and never shared with anyone. You can manage or remove this access at any time in the Health app or in Settings.</p>
+
+  <h2>Prism Prints and keepsakes</h2>
+  <p>Mindful Prism can create a Prism Print image of your entry and a monthly painting. These are kept only if you choose to keep them, and they stay on your device. If you share a Prism Print or save it to Photos, it goes only where you send it, using the standard iOS share sheet. Mindful Prism does not upload it anywhere.</p>
+
+  <h2>Let it go</h2>
+  <p>Words you write in the "let something go" step during breathing are never saved. They are discarded as soon as the animation ends.</p>
 
   <h2>Face ID and biometric data</h2>
   <p>If you enable the Face ID lock, authentication is handled entirely by iOS and Apple's LocalAuthentication framework. Mindful Prism never sees, stores, or accesses your biometric data.</p>
@@ -53,12 +74,12 @@
   <p>If this policy changes, the updated version will be posted at this URL with a new last updated date.</p>
 
   <h2>Contact</h2>
-  <p>Questions about this privacy policy: <a href="mailto:YOUR_EMAIL@gmail.com">asheshp23@yahoo.com</a></p>
+  <p>Questions about this privacy policy: <a href="mailto:asheshp23@yahoo.com">asheshp23@yahoo.com</a></p>
 
 </div>
 
 <footer>
-  © 2026 Mindful Prism · <a href="/">Mindful Prism</a>
+  © 2026 Ashesh Patel · <a href="./">Mindful Prism</a>
 </footer>
 
 </body>
